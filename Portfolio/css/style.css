@@ -1,0 +1,103 @@
+:root{
+    --corDiv:#ccc;
+    --corTexto2:#96dfaa; 
+    --corFundo3:#008d40;
+}
+
+body{ 
+  background-color:var(--corFundo3);
+  line-height: 1;
+  padding: 2px;
+}
+
+h1{
+  color:var(--corTexto2);
+  font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+header{
+  padding:2px;
+  text-align: center; 
+  font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+section{
+  color: var(--corTexto2);
+  font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+nav ul{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li{
+  margin:0 15px; 
+}
+
+nav ul li a{
+  color: var(--corTexto2);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+section{
+  margin-top: 30px;
+}
+#sobre{
+  text-align: center;
+}
+
+.foto{ 
+  width: 150px; /* Altura da imagem */
+  height: 150px; /*Largura da imagem */ 
+  border-radius: 20%; /* Moldura redonda para imagem */
+  margin-top: 10px; /* Distância entre a imagem e o parágrafo anterior */
+  margin-right: 2000px;
+}
+
+.projeto{ /* Vamos usar a classe projeto no HTML*/
+  background-color: var(--corHeader1);
+  padding: 15px;
+  margin-top: 10px;
+  border: 1px solid #ccc; /* Aplicar borba no elemento HTML*/
+  border-radius: 5px;
+}
+video{
+  border-radius: 50px;
+}
+
+form{
+  background-color: var(--corFundo3);
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+form label{
+  display: block;
+  margin: 10px 0 5px;
+
+}
+
+input, form textarea{
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+ button{
+  padding: 10px 20px;
+  background-color: #ccc;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+footer{
+text-align: center;
+ margin-top: 20px;  
+}
